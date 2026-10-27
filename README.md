@@ -41,9 +41,12 @@ Revoke the old key on the account page.
 
 ## Without the plugin
 
+With your key in `SURFACE_MANAGEMENT_KEY`. The single quotes store the variable, not the key, in
+Claude Code's config:
+
 ```bash
-claude mcp add --transport http surface https://mcp.surface-ai.io/mcp/ \
-  --header "Authorization: Bearer $SURFACE_MANAGEMENT_KEY"
+claude mcp add --scope user --transport http surface https://mcp.surface-ai.io/mcp/ \
+  --header 'Authorization: Bearer ${SURFACE_MANAGEMENT_KEY}'
 ```
 
 ## License

@@ -31,9 +31,10 @@ connected. If the user revoked a key on the account page, that key stops working
 
 ## Without the plugin
 
-Anyone can connect without the plugin, using a key in an environment variable:
+Anyone can connect without the plugin, with the key in the `SURFACE_MANAGEMENT_KEY` environment
+variable. Keep the single quotes: they store the variable rather than the key itself.
 
 ```bash
-claude mcp add --transport http surface https://mcp.surface-ai.io/mcp/ \
-  --header "Authorization: Bearer $SURFACE_MANAGEMENT_KEY"
+claude mcp add --scope user --transport http surface https://mcp.surface-ai.io/mcp/ \
+  --header 'Authorization: Bearer ${SURFACE_MANAGEMENT_KEY}'
 ```
