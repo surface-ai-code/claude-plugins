@@ -1,0 +1,7 @@
+{
+  "surface": {
+    "type": "http",
+    "url": "https://mcp.surface-ai.io/mcp/",
+    "headers": { "Authorization": "Bearer ${user_config.management_key}" }
+  }
+}

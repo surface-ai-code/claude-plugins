@@ -1,0 +1,15 @@
+{
+  "name": "surface-ai",
+  "description": "Surface AI plugins for Claude Code",
+  "owner": {
+    "name": "Surface AI",
+    "url": "https://surface-ai.io"
+  },
+  "plugins": [
+    {
+      "name": "surface-ai",
+      "source": "./plugins/surface-ai",
+      "description": "Set up and manage Surface AI surfaces and variants from Claude Code"
+    }
+  ]
+}
