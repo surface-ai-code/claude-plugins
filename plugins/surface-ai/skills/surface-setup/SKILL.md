@@ -20,14 +20,14 @@ page of this codebase.
 The key is missing, mistyped or revoked. Claude Code doesn't load the tools until the key works, so
 walk the user through:
 
-1. **Get a key.** Open https://app.surface-ai.io/account and, under **Management API keys**, create
-   one. It starts with `mak_live_` and is shown once — copy it then.
+1. **Get a key.** Open https://app.surface-ai.io/settings/developers and, under
+   **Management API keys**, create one. It starts with `mak_live_` and is shown once — copy it then.
 2. **Enter it.** Run `/plugin`, choose **surface-ai**, and configure it with the new key.
 3. **Restart Claude Code** so the server reconnects with the new key.
 4. Run `/mcp` to confirm `surface` is connected, then check the connection as above.
 
 A key belongs to a user, not an organization: revoking one person's key leaves everyone else
-connected. If the user revoked a key on the account page, that key stops working right away.
+connected. If the user revoked a key under Settings → Developers, that key stops working right away.
 
 ## Without the plugin
 
