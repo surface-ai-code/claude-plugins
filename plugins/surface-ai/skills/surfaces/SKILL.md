@@ -54,4 +54,4 @@ want it back.
 - **Deletes** aren't available through the tools. Archive instead, or point the user to the
   dashboard.
 - **Errors:** relay a tool's error message as it is — it explains the rule that was hit. A plan
-  limit error includes a link to the account page; share it.
+  limit error includes a link to the billing page; share it.

@@ -7,7 +7,7 @@ variants, and manage them afterwards.
 
 ## Install
 
-1. Create a management key at [app.surface-ai.io/account](https://app.surface-ai.io/account),
+1. Create a management key at [app.surface-ai.io/settings/developers](https://app.surface-ai.io/settings/developers),
    under **Management API keys**. It starts with `mak_live_` and is shown once.
 2. In Claude Code:
 
@@ -37,7 +37,7 @@ Ask Claude in your project, for example:
 ## Changing or replacing the key
 
 Run `/plugin`, choose **surface-ai**, configure it with the new key, and restart Claude Code.
-Revoke the old key on the account page.
+Revoke the old key under Settings → Developers.
 
 ## Without the plugin
 
