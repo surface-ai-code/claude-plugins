@@ -1,12 +1,12 @@
 {
   "name": "surface-ai",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Set up and manage Surface AI surfaces and variants from Claude Code",
   "author": {
     "name": "Surface AI",
     "url": "https://surface-ai.io"
   },
-  "homepage": "https://surface-ai.io",
+  "homepage": "https://docs.surface-ai.io/mcp",
   "privacyPolicyUrl": "https://www.surface-ai.io/privacy-policy",
   "repository": "https://github.com/surface-ai-code/claude-plugins",
   "license": "MIT",
@@ -14,7 +14,7 @@
     "management_key": {
       "type": "string",
       "title": "Surface management key",
-      "description": "Create one at https://app.surface-ai.io/settings/developers, under Management API keys. Starts with mak_live_.",
+      "description": "Create one at https://app.surface-ai.io/settings/developers (Create key). Starts with mak_live_.",
       "sensitive": true,
       "required": true
     }

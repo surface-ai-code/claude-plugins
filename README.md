@@ -5,10 +5,13 @@ different version of chosen page content to each visitor and learns which one ge
 to the page's goal. This plugin lets Claude add a surface to a page of your codebase, write the
 variants, and manage them afterwards.
 
+**Docs:** [docs.surface-ai.io/mcp](https://docs.surface-ai.io/mcp) — install, the tools, and
+troubleshooting.
+
 ## Install
 
-1. Create a management key at [app.surface-ai.io/settings/developers](https://app.surface-ai.io/settings/developers),
-   under **Management API keys**. It starts with `mak_live_` and is shown once.
+1. Create a management key at [app.surface-ai.io/settings/developers](https://app.surface-ai.io/settings/developers):
+   click **Create key**. It starts with `mak_live_` and is shown once.
 2. In Claude Code:
 
    ```
@@ -18,6 +21,8 @@ variants, and manage them afterwards.
 
 3. Paste the key when Claude Code asks for it. It's stored in your system keychain, not in a file.
 4. Restart Claude Code, then run `/mcp` to check that `surface` is connected.
+
+Something not working? See [Troubleshooting](https://docs.surface-ai.io/mcp/troubleshooting).
 
 ## Use
 
