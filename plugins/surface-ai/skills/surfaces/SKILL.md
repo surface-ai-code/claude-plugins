@@ -1,6 +1,6 @@
 ---
 name: surfaces
-description: A/B test and personalize page content with Surface AI — add a surface to a page of this codebase, write and manage its variants, and check results. Use when the user wants to test or personalize page copy (headlines, calls to action, hero images), or asks about their surfaces, variants, results or the Surface dashboard.
+description: Test and personalize page content with Surface AI — add a surface to a page of this codebase, write and manage its variants, and check results. Use when the user wants to test, experiment with, A/B test or personalize page copy (headlines, calls to action, hero images), or asks about their surfaces, variants, results or the Surface dashboard.
 ---
 
 # Surface AI

@@ -37,7 +37,7 @@ Ask Claude in your project, for example:
 | Included | |
 |---|---|
 | MCP server | `surface`, at `https://mcp.surface-ai.io/mcp/` |
-| Skill `surfaces` | A/B tests page content: adds a surface to a page, manages variants, reads results |
+| Skill `surfaces` | Tests and personalizes page content: adds a surface to a page, manages variants, reads results |
 | Skill `connect` | Connects Claude Code and fixes a missing or invalid key |
 
 ## Changing or replacing the key
