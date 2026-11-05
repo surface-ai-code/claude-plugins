@@ -30,6 +30,7 @@ Ask Claude in your project, for example:
 
 - "Set up Surface on the pricing page."
 - "List my surfaces."
+- "How is the homepage test doing?"
 - "Add two new headline variants to the homepage surface."
 - "Open the homepage surface in the dashboard."
 

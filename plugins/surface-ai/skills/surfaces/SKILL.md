@@ -47,8 +47,13 @@ want it back.
 
 ## Working with the user
 
-- **"Open it" / "show me the results":** call `surface_get` and open its `dashboard_url`. Results,
-  analytics and A/B tests live in the dashboard.
+- **"How is it doing?" / "show me the results":** call `surface_results`. Lead with each variant's
+  `rate_per_session` and `win_probability`, the control first. Only call a winner when
+  `termination.should_terminate` is true; until then say which variant is ahead. If `variants` is
+  empty, relay its `note` (no test yet, or no results until the snippet has traffic).
+- **"How much traffic?":** `surface_traffic` gives sessions per day.
+- **"Open it":** open `dashboard_url` from `surface_get` or `surface_results` (the latter opens the
+  Optimize page, with charts).
 - **Writing variants:** start from the control's copy, change one idea per variant, and keep each
   value close to the original's length so the layout holds.
 - **Deletes** aren't available through the tools. Archive instead, or point the user to the
