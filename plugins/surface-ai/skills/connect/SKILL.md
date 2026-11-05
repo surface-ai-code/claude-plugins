@@ -1,6 +1,6 @@
 ---
-name: surface-setup
-description: Connect Claude Code to Surface AI, or fix the connection. Use when the user is getting started with the Surface AI plugin, when the surface MCP server's tools are missing, or when /mcp shows the surface server failed (for example a 401 or "Missing or invalid management key").
+name: connect
+description: Connect Claude Code to Surface AI, or fix the connection. Use when the user has just installed the Surface AI plugin, when the surface MCP server's tools are missing, or when /mcp shows the surface server failed (for example a 401 or "Missing or invalid management key"). Not for adding a surface to a page — that's the surfaces skill.
 ---
 
 # Connecting to Surface AI
@@ -23,8 +23,7 @@ walk the user through:
 1. **Get a key.** Open https://app.surface-ai.io/settings/developers and click **Create key**. It
    starts with `mak_live_` and is shown once — copy it then.
 2. **Enter it.** Run `/plugin`, choose **surface-ai**, and configure it with the new key.
-3. **Restart Claude Code** so the server reconnects with the new key.
-4. Run `/mcp` to confirm `surface` is connected, then check the connection as above.
+3. Run `/mcp` to confirm `surface` is connected, then check the connection as above.
 
 For anything else, point the user to https://docs.surface-ai.io/mcp/troubleshooting.
 

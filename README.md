@@ -20,7 +20,7 @@ troubleshooting.
    ```
 
 3. Paste the key when Claude Code asks for it. It's stored in your system keychain, not in a file.
-4. Restart Claude Code, then run `/mcp` to check that `surface` is connected.
+4. Run `/mcp` to check that `surface` is connected.
 
 Something not working? See [Troubleshooting](https://docs.surface-ai.io/mcp/troubleshooting).
 
@@ -37,12 +37,12 @@ Ask Claude in your project, for example:
 | Included | |
 |---|---|
 | MCP server | `surface`, at `https://mcp.surface-ai.io/mcp/` |
-| Skill `surfaces` | Sets up a surface on a page and manages variants |
-| Skill `surface-setup` | Connects Claude Code and fixes a missing or invalid key |
+| Skill `surfaces` | A/B tests page content: adds a surface to a page, manages variants, reads results |
+| Skill `connect` | Connects Claude Code and fixes a missing or invalid key |
 
 ## Changing or replacing the key
 
-Run `/plugin`, choose **surface-ai**, configure it with the new key, and restart Claude Code.
+Run `/plugin`, choose **surface-ai**, configure it with the new key.
 Revoke the old key under Settings → Developers.
 
 ## Without the plugin
