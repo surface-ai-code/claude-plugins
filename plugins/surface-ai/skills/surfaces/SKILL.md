@@ -1,6 +1,6 @@
 ---
 name: surfaces
-description: Set up a Surface AI surface on a page of this codebase, or manage existing surfaces and their variants. Use when the user wants to A/B test or personalize page copy (headlines, calls to action, hero images) with Surface, or asks about their surfaces, variants, results or the Surface dashboard.
+description: Test and personalize page content with Surface AI — add a surface to a page of this codebase, write and manage its variants, and check results. Use when the user wants to test, experiment with, A/B test or personalize page copy (headlines, calls to action, hero images), or asks about their surfaces, variants, results or the Surface dashboard.
 ---
 
 # Surface AI
@@ -9,14 +9,14 @@ Surface serves a different version of chosen page content to each visitor and le
 gets more visitors to the page's goal. The `surface` MCP server's tools do the work; this skill is
 how to use them well.
 
-If no `surface` tools are available, the server isn't connected — follow the `surface-setup` skill
+If no `surface` tools are available, the server isn't connected — follow the `connect` skill
 first.
 
 ## Setting up a new surface
 
 When the user wants Surface on a page of this codebase, follow
 [setup-workflow.md](setup-workflow.md) step by step. It is the same workflow as the server's
-`setup_surface` prompt. Don't skip its **Ask** checkpoints: nothing is created until the user has
+`new_surface` prompt. Don't skip its **Ask** checkpoints: nothing is created until the user has
 approved the elements, goals and variants.
 
 ## How Surface is organized
