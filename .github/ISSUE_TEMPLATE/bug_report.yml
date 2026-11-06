@@ -1,0 +1,31 @@
+name: Bug report
+description: Something in the plugin or the Surface MCP server isn't working
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you asked Claude, what you expected, and what happened instead. Never paste your management key.
+    validations:
+      required: true
+  - type: input
+    id: claude-code
+    attributes:
+      label: Claude Code version
+      description: Output of `claude --version`
+    validations:
+      required: true
+  - type: input
+    id: plugin
+    attributes:
+      label: Plugin version
+      description: Shown under `/plugin` → surface-ai
+    validations:
+      required: true
+  - type: textarea
+    id: mcp
+    attributes:
+      label: "`/mcp` status"
+      description: Whether `surface` shows connected or failed, and any error text
+      render: text
