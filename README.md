@@ -1,6 +1,10 @@
 # Surface AI for Claude Code
 
-Set up and manage [Surface AI](https://surface-ai.io) from Claude Code. Surface serves a
+[![Release](https://img.shields.io/github/v/release/surface-ai-code/claude-plugins)](https://github.com/surface-ai-code/claude-plugins/releases)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![Docs](https://img.shields.io/badge/docs-docs.surface--ai.io-1d4fd7)](https://docs.surface-ai.io/mcp/plugin?utm_source=github&utm_medium=readme)
+
+Set up and manage [Surface AI](https://www.surface-ai.io/?utm_source=github&utm_medium=readme) from Claude Code. Surface serves a
 different version of chosen page content to each visitor and learns which one gets more visitors
 to the page's goal. This plugin lets Claude add a surface to a page of your codebase, write the
 variants, and manage them afterwards.
@@ -42,7 +46,7 @@ Ask Claude in your project, for example:
 
 ## Changing or replacing the key
 
-Run `/plugin`, choose **surface-ai**, configure it with the new key.
+Run `/plugin`, choose **surface-ai**, and configure it with the new key.
 Revoke the old key under Settings → Developers.
 
 ## Without the plugin
@@ -54,6 +58,13 @@ Claude Code's config:
 claude mcp add --scope user --transport http surface https://mcp.surface-ai.io/mcp/ \
   --header 'Authorization: Bearer ${SURFACE_MANAGEMENT_KEY}'
 ```
+
+## Links
+
+- [surface-ai.io](https://www.surface-ai.io/?utm_source=github&utm_medium=readme): what Surface is
+- [docs.surface-ai.io/mcp](https://docs.surface-ai.io/mcp?utm_source=github&utm_medium=readme): the MCP server, its tools, and troubleshooting
+- [Create a free account](https://app.surface-ai.io/register?next=/settings/developers&utm_source=github&utm_medium=readme)
+- [Report a bug](https://github.com/surface-ai-code/claude-plugins/issues/new/choose) · [Security](SECURITY.md)
 
 ## License
 

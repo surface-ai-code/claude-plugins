@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Docs and troubleshooting
+    url: https://docs.surface-ai.io/mcp/troubleshooting
+    about: Missing tools, a 401, or setup questions
+  - name: Report a vulnerability
+    url: https://github.com/surface-ai-code/claude-plugins/security/advisories/new
+    about: Privately, not as a public issue
