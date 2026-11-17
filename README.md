@@ -9,7 +9,7 @@ different version of chosen page content to each visitor and learns which one ge
 to the page's goal. This plugin lets Claude add a surface to a page of your codebase, write the
 variants, and manage them afterwards.
 
-**Docs:** [docs.surface-ai.io/mcp](https://docs.surface-ai.io/mcp) — install, the tools, and
+**Docs:** [docs.surface-ai.io/mcp](https://docs.surface-ai.io/mcp?utm_source=github&utm_medium=readme) — install, the tools, and
 troubleshooting.
 
 ## Install
@@ -26,7 +26,7 @@ troubleshooting.
 3. Paste the key when Claude Code asks for it. It's stored in your system keychain, not in a file.
 4. Run `/mcp` to check that `surface` is connected.
 
-Something not working? See [Troubleshooting](https://docs.surface-ai.io/mcp/troubleshooting).
+Something not working? See [Troubleshooting](https://docs.surface-ai.io/mcp/troubleshooting?utm_source=github&utm_medium=readme).
 
 ## Use
 
